@@ -38,11 +38,79 @@ section p {
   text-align: center;
   line-height: 1.5;
 }
-section img {
+.image {
   padding-top: 30px;
   border-radius: 50%;
 }
-article div {
-  background-color: #f04c2f;
+.Testimonianze {
+  background-color: #e22d0e;
   line-height: 1.5;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.Testimonianze h1 {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.Testimonianze p {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.Testimonianze h2 {
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+}
+.Testimonianze h3 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+  font-size: small;
+}
+aside section {
+  border: 1px solid #dee1e3;
+}
+aside section div {
+  margin-top: 35px;
+}
+aside section div h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2a3;
+  text-align: center;
+}
+aside section div p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+footer {
+  margin-top: 30px;
+  background-color: #25a2c3;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+footer p {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer address h2 {
+  text-decoration: underline;
+  line-height: 1.5;
+}
+footer h3 {
+  border-top: 0.5px solid white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+footer a {
+  color: white;
 }
