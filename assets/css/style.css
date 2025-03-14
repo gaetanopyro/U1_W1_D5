@@ -1,5 +1,7 @@
 /* Your styles here */
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 header {
   padding: 20px;
   text-align: center;
@@ -12,7 +14,6 @@ main article div {
   background-position: center;
 }
 main article div h1 {
-  font-family: "Montserrat", sans-serif;
   color: #25a2a3;
   text-align: center;
   font-weight: bold;
@@ -26,7 +27,6 @@ form {
 }
 input {
   background-color: #f04c2f;
-  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: bold;
   border-radius: 2.5px;
@@ -34,21 +34,18 @@ input {
   padding: 5px;
 }
 main article div p {
-  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   text-align: center;
   padding-top: 20px;
   padding: 10px;
 }
 section h2 {
-  font-family: "Montserrat", sans-serif;
   color: #25a2a3;
   text-align: center;
   padding-top: 30px;
   font-weight: bold;
 }
 section p {
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 1.5;
 }
@@ -72,21 +69,17 @@ article section img {
 }
 .Testimonianze h1 {
   padding-top: 30px;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 .Testimonianze p {
   padding-top: 30px;
-  font-family: "Montserrat", sans-serif;
   font-style: italic;
 }
 .Testimonianze h2 {
   padding-top: 30px;
-  font-family: "Montserrat", sans-serif;
   font-size: larger;
 }
 .Testimonianze h3 {
-  font-family: "Montserrat", sans-serif;
   padding-bottom: 20px;
   font-size: small;
 }
@@ -105,7 +98,6 @@ aside section div {
 aside section div h3 {
   padding-top: 20px;
   padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #25a2a3;
   text-align: center;
@@ -113,7 +105,6 @@ aside section div h3 {
 aside section div p {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 1.5;
 }
@@ -122,7 +113,6 @@ footer {
   background-color: #25a2c3;
   text-align: center;
   color: white;
-  font-family: "Montserrat", sans-serif;
 }
 footer p {
   font-size: xx-large;
