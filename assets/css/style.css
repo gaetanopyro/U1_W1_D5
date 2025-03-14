@@ -7,6 +7,9 @@ header {
 }
 main article div {
   background-image: url(../img/banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 main article div h1 {
   font-family: "Montserrat", sans-serif;
@@ -15,22 +18,14 @@ main article div h1 {
   font-weight: bold;
   line-height: 1.5;
   padding-top: 20px;
+  font-size: x-large;
+  padding-bottom: 20px;
 }
 main article div p {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   text-align: center;
-}
-button {
-  background-color: #f04c2f;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-weight: bold;
-  border-radius: 2.5px;
-  border-style: none;
-  padding: 5px;
-  margin-top: 10px;
-  text-align: center;
+  padding-top: 30px;
 }
 section h2 {
   font-family: "Montserrat", sans-serif;
@@ -44,11 +39,16 @@ section p {
   text-align: center;
   line-height: 1.5;
 }
-.image {
+main article section p {
+  padding: 20px;
+}
+article section img {
   display: block;
   max-width: 100%;
   height: auto;
   border-radius: 50%;
+  text-align: center;
+  transform: scale(0.8);
 }
 .Testimonianze {
   background-color: #e22d0e;
@@ -65,6 +65,7 @@ section p {
 .Testimonianze p {
   padding-top: 30px;
   font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 .Testimonianze h2 {
   padding-top: 30px;
@@ -76,8 +77,8 @@ section p {
   padding-bottom: 20px;
   font-size: small;
 }
-aside section {
-  border: 1px solid #dee1e3;
+aside {
+  padding: 20px;
 }
 aside section img {
   display: block;
@@ -86,6 +87,7 @@ aside section img {
 }
 aside section div {
   margin-top: 35px;
+  border: 1px solid #dee1e3;
 }
 aside section div h3 {
   padding-top: 20px;
@@ -120,9 +122,16 @@ footer address h2 {
   line-height: 1.5;
 }
 footer h3 {
-  border-top: 0.5px solid white;
   padding-top: 30px;
   padding-bottom: 50px;
+}
+footer h4 {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+hr {
+  width: 50%;
+  margin: auto;
 }
 footer a {
   color: white;
