@@ -19,13 +19,26 @@ main article div h1 {
   line-height: 1.5;
   padding-top: 20px;
   font-size: x-large;
-  padding-bottom: 20px;
+}
+form {
+  text-align: center;
+  padding-bottom: 30px;
+}
+input {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+  border-radius: 2.5px;
+  border-style: none;
+  padding: 5px;
 }
 main article div p {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding: 10px;
 }
 section h2 {
   font-family: "Montserrat", sans-serif;
